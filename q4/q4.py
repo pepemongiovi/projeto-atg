@@ -12,6 +12,7 @@ charset='utf-8'
 artistsNodes = {}
 artistsEdges = []
 playlistsNodes = []
+playlistsEdges = []
 ARTIST_ID_INDEX = 0
 ARTIST_NAME_INDEX = 1
 
@@ -71,25 +72,37 @@ def setArtistsEdges(selectedArtistName, selectedArtistIndex):
 				edge = [selectedArtistIndex, artistsNodes[artistName][ARTIST_ID_INDEX], playlistsInCommon]
 				artistsEdges.append(edge)
 
+# def setPlaylistsEdges():
+# 	global playlistsEdges
+# 	for i in range (len(playlistsNodes)):
+# 		for j in range (i+1,len(playlistsNodes)):
+# 			edge = [playlistsNodes[i][0], playlistsNodes[j][0]]
+# 			playlistsEdges.append(edge)
 
 def generateCSV():
 	with open('artistsNodes.csv', mode='w') as nodes_file:
 		nodes_writer = csv.writer(nodes_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-		nodes_writer.writerow(['id', 'artist_name'])
+		nodes_writer.writerow(['Id', 'Label'])
 		for node in artistsNodes:
 			nodes_writer.writerow(artistsNodes[node])
 
 	with open('artistsEdges.csv', mode='w') as edges_file:
 		edges_writer = csv.writer(edges_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-		edges_writer.writerow(['source', 'target', 'weight'])
+		edges_writer.writerow(['Source', 'Target', 'Weight'])
 		for edge in artistsEdges:
 			edges_writer.writerow(edge)
 
 	with open('playlistsNodes.csv', mode='w') as nodes_file:
 		nodes_writer = csv.writer(nodes_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-		nodes_writer.writerow(['pid', 'playlist_name', 'weight'])
+		nodes_writer.writerow(['Id', 'Label', 'Weight'])
 		for node in playlistsNodes:
 			nodes_writer.writerow(node)
+
+	# with open('playlistsEdges.csv', mode='w') as edges_file:
+	# 	edges_writer = csv.writer(edges_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+	# 	edges_writer.writerow(['Source', 'Target'])
+	# 	for edge in playlistsEdges:
+	# 		edges_writer.writerow(edge)
 
 
 def getMostSimilarArtists():
@@ -136,6 +149,7 @@ def run():
 		setArtistsEdges(selectedArtistName, selectedArtistIndex)
 		mostSimilarArtists = getMostSimilarArtists()
 		setPlaylistsNodes(selectedArtistName, mostSimilarArtists)
+		# setPlaylistsEdges()
 		printResult(mostSimilarArtists)
 		generateCSV()
 

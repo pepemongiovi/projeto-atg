@@ -1,11 +1,11 @@
-pid,playlist_name,weight
-33915,July 2013,0
+Id,Label,Weight
+33915,July 2013,1
 404107,PARTY!,0
 168855,rap,0
 95897,Music,0
 812906,biggie,0
-230055,Get Ready,2
-232528,Alternative/Pop,1
+230055,Get Ready,0
+232528,Alternative/Pop,0
 681621,New Mix,0
 161801,Eminem,0
 705633,2012,0
@@ -16,17 +16,17 @@ pid,playlist_name,weight
 186558,Pre,0
 963545,80s,0
 36690,Cody,0
-537116,You're Beautiful,5
+537116,You're Beautiful,0
 169510,Party,0
 534037,thug life,0
 387004,alternitive,0
 483952,boxing,0
 674127,alternative,0
-654899,Mine!,1
-231864,Ho Hey,2
+654899,Mine!,0
+231864,Ho Hey,0
 582681,Hangover,0
 978671,hypeee,0
-737188,Play,1
+737188,Play,0
 958644,F**kin' Problems,0
 950726,Classics,0
 735924,My songs,0
@@ -36,34 +36,34 @@ pid,playlist_name,weight
 45557,Exercise,0
 839311,wonderwall,0
 910960,top 40,0
-404025,2013,3
+404025,2013,0
 860721,Hayden,0
-435584,Playlist,1
+435584,Playlist,0
 64928,Oldies,0
 781581,drake,0
 863314,Rock,0
-201814,Crisp,1
-798084,Ho Hey,1
+201814,Crisp,0
+798084,Ho Hey,0
 860864,Driving Playlist,0
 159638,hip hop,0
 706776,Rap,0
 466921,Workout,0
 480206,Ukelele,0
 634411,Stuff,0
-960093,Birthday Party,2
+960093,Birthday Party,0
 270077,Thrift Shop - feat. Wanz,0
 567232,Sad Days,0
 187685,Tyga ,0
 781037,Happy Hour,0
 564618,Marching Band,0
-567008,Idk,1
+567008,Idk,0
 507385,The Classics,0
-343352,bruno mars,5
+343352,bruno mars,0
 273154,Dog Days,0
 902153,Wedding Playlist,0
 656142,Cinco,0
 682988,ok,0
-646179,Juni 2013,1
+646179,Juni 2013,0
 909273,Grad party,0
 90750,Top,0
 201869,popular,0
@@ -84,41 +84,41 @@ pid,playlist_name,weight
 780677,Beast Mode.,0
 90187,90's,0
 406510,Driving,0
-829995,cleaning,1
+829995,cleaning,0
 406999,Dig,0
-953985,Pumped Up Kicks,3
+953985,Pumped Up Kicks,0
 101822,Summer Fun,0
 232434,throwback,0
-329259,hits,1
+329259,hits,0
 537354,My Summer Twist Playlist,0
 782714,rock,0
-861238,What. ,1
+861238,What. ,0
 434549,running,0
 130993,boo,0
-885028,Trouble,1
-26500,summer 13,2
+885028,Trouble,0
+26500,summer 13,0
 962774,Running Mix,0
 682112,2006,0
 747325,beyonce,0
 675594,Gym 1,0
-556454,Easy Listening,1
-766859,Just Give Me a Reason,1
+556454,Easy Listening,0
+766859,Just Give Me a Reason,0
 90528,Running,0
 545885,run,0
 851461,Rise and Shine,0
 53568,Carry On,0
 634191,Soft,0
 101538,boom,0
-734346,GO,2
-218180,Party Time,1
-505694,Good Feeling,0
+734346,GO,0
+218180,Party Time,0
+505694,Good Feeling,1
 863416,transition,0
 581982,Hip-Hop/Rap,0
-435540,2012,1
+435540,2012,0
 202776,Indie/Alt,0
 331801,Grind,0
 259731,wedding dancing,0
-236741,New,1
+236741,New,0
 359736,Drive By,0
 939415,No Diggity,0
 467757,Lil Wayne,0
@@ -129,7 +129,7 @@ pid,playlist_name,weight
 455633,Don't Judge ME,0
 50621,Throwbacks,0
 83264,'Till I Collapse,0
-301721,Wedding,1
+301721,Wedding,0
 617891,mama,0
 243544,Sarah,0
 185145,misc,0
@@ -137,11 +137,11 @@ pid,playlist_name,weight
 131310,Rec,0
 488064,Olds,0
 884607,Summer Jams,0
-454790,New music,2
-360977,Italy,1
+454790,New music,1
+360977,Italy,0
 444717,Mom,0
 895851,Pandora,0
-488287,MD,2
+488287,MD,0
 735502,AmP,0
 406576,Mix it up,0
 475434,FORMAL,0
@@ -150,7 +150,7 @@ pid,playlist_name,weight
 933855,Jammin,0
 839954,Rockin' Out,0
 676488,Get Up!,0
-467172,Dinner,1
+467172,Dinner,0
 754722,Calm,0
 482695,Music,0
 71689,Partay!,0
@@ -159,36 +159,36 @@ pid,playlist_name,weight
 232215,Hippity Hop,0
 781429,Boston,0
 606346,Flashback,0
-922327,Workout,1
+922327,Workout,0
 45123,10s,0
 664545,One of those days,0
 737508,80s music,0
 480009,Hipster Music,0
-747562,Varias,1
-878712,summer jams,1
+747562,Varias,0
+878712,summer jams,0
 801021,GP,0
 333614,Pop Songs,0
 800830,GET PUMPED,0
 951046,Rawr,0
-151223,Reunion,0
-130216,Summer Fun,1
+151223,Reunion,1
+130216,Summer Fun,0
 858893,Lifting,0
 939852,Classic Rock,0
 861257,my music,0
-185046,Dance Music,2
-483022,hip hop,1
+185046,Dance Music,0
+483022,hip hop,0
 832998,Jacob,0
-100913,US,10
+100913,US,1
 860820,Road Trippin',0
 17647,Finale,0
-766748,Other,1
+766748,Other,0
 371453,YEAH!,0
-931453,Dance Floor,1
+931453,Dance Floor,0
 362471,Freshman Year,0
 384189,Random,0
 987133,Lil wayne,0
 755213,Oldies but Goodies,0
-434217,bbq,2
+434217,bbq,0
 951947,Lollapalooza,0
 287210,90's,0
 406981,party,0
@@ -197,26 +197,26 @@ pid,playlist_name,weight
 77020,2013,0
 483705,indie love,0
 483553,Memories,0
-689639,PARTY 1,1
-202490,Mellow,1
+689639,PARTY 1,0
+202490,Mellow,0
 437314,Pump Up Songs,0
 131618,New Years!,0
 963428,Higher,0
-303115,Guilty Pleasure,1
+303115,Guilty Pleasure,0
 23821,Good Rap,0
 968982,chocolate,0
 358068,Old Rock,0
 268275,4th of July,0
-435043,Fall 2012,1
+435043,Fall 2012,0
 457312,Wake Up,0
-194344,drive,1
+194344,drive,0
 50719,workout,0
-385448,Rap and Hip/Hop,1
+385448,Rap and Hip/Hop,0
 861515,Oldies,0
 747190,My jam,0
 406400,top100,1
 852856,energize,0
-284189,feel.good,1
+284189,feel.good,0
 435199,pop,0
 371210,Ryan,0
 580152,Dynamite,0
@@ -227,24 +227,24 @@ pid,playlist_name,weight
 923487,Classic Rap,0
 821069,cool,0
 704580,Summer 2013,0
-680956,<3,1
+680956,<3,0
 755673,For Kate,0
-657034,Drunk,1
+657034,Drunk,0
 437019,Lovely,0
 507624,Throwback,0
 634485,chill out,0
 868323,Party,0
-705786,Guilty Pleasures,1
+705786,Guilty Pleasures,0
 939781,Buddy,0
-260140,calmness,1
-978970,April,1
-385149,Upbeat,1
-931106,Justin,1
-902793,Party,1
-456650,Wedding Dance Songs,1
-774341,Cleaning Music,2
+260140,calmness,0
+978970,April,0
+385149,Upbeat,0
+931106,Justin,0
+902793,Party,0
+456650,Wedding Dance Songs,0
+774341,Cleaning Music,0
 465398,Mood Booster,0
-363301,Jam Songs,1
+363301,Jam Songs,0
 705834,idk.,0
 624810,rappy,0
 454177,80s,0
@@ -257,8 +257,8 @@ pid,playlist_name,weight
 644889,Summer,0
 464228,COD,0
 635292,Hits,0
-85562,New,2
-270472,workout music,1
+85562,New,0
+270472,workout music,0
 630853,newest,0
 319226,ya ,0
 731770,F**kin' Problems,0
@@ -268,14 +268,14 @@ pid,playlist_name,weight
 414221,WORK,0
 187759,Eminem,0
 499879,Trip,0
-931772,HC,1
+931772,HC,0
 68960,Chilllllll,0
 535966,cleaning,1
-369759,POP,1
+369759,POP,0
 850330,Workout,0
 962446,Love songs,0
-231455,Spring 2013,2
-853396,Shower,1
+231455,Spring 2013,0
+853396,Shower,0
 405033,Rad,0
 53983,Kyle,0
 803982,1990s,0
@@ -285,42 +285,42 @@ pid,playlist_name,weight
 85254,Just Me:),0
 537134,drive,0
 536100,One Hit Wonders,0
-262448,beats,1
+262448,beats,0
 838126,Summer 13,0
 332182,wedding.tunes.,0
 64731,Current,0
 26254,Throwback,0
 635133,Leggo,0
 535357,Long Drive,0
-143411,spring 2013,1
+143411,spring 2013,0
 879987,whatever,0
 350906,June 2013,0
 263851,Partay,0
-187828,hopeless romantic,1
-231494,Me likey,2
-756138,Winter,1
+187828,hopeless romantic,0
+231494,Me likey,0
+756138,Winter,0
 593448,study,0
 637936,pop punk,0
 231722,Ain't No Sunshine,0
 437332,Dance,0
-200728,Partayyyy,1
+200728,Partayyyy,0
 40152,POP,0
 318471,Old Rock,0
 862986,kendrick lamar,0
-74714,Pop,6
+74714,Pop,0
 138637,Training!,1
 406110,spring 2013,0
 607940,Walk Up Songs,0
 838716,Steph,0
 455460,Random Access Memories,0
-285565,Runner,1
+285565,Runner,0
 862864,Youth,0
-683261,Pop,0
-537040,random,2
+683261,Pop,1
+537040,random,0
 634540,Classic Rock,0
 635800,Party,0
 131660,Sprung,0
-683050,100,2
+683050,100,0
 386592,Mix 2,0
 20031,PARTAY,1
 692058,Samantha,0
@@ -330,40 +330,40 @@ pid,playlist_name,weight
 55564,Games,0
 764444,Nelly,0
 968581,Ash ,0
-801488,Spring 2012,0
+801488,Spring 2012,1
 71472,dance party. ,0
 17361,After Dinner,0
 984423,March 2013,0
 607091,Summerrrr,0
 674544,Offline,0
-231802,Madison ,4
+231802,Madison ,0
 387746,Summer,0
 349995,OS,0
 665092,Summer 2013,0
-109782,!?!?!,1
-755916,Summer '13,1
+109782,!?!?!,0
+755916,Summer '13,0
 387891,Summer 2013,0
 869295,90's,0
 705781,Work,0
 250649,Hot,0
-537016,2012-2013,3
-535181,Current,2
+537016,2012-2013,0
+535181,Current,0
 985506,Indie playlist,0
 756163,guitar:),0
 636108,Warm ups,0
-196950,New Hits,4
+196950,New Hits,1
 59161,My rock,0
-36369,League of Legends,1
-219507,Popular ,1
-339248,Auto,1
+36369,League of Legends,0
+219507,Popular ,0
+339248,Auto,0
 201356,aaaaaaa,0
-358072,😍😍😍😍,1
+358072,😍😍😍😍,0
 18665,70's,0
-831088,Wedding,1
-56042,Party Music,0
+831088,Wedding,0
+56042,Party Music,1
 860982,good,0
-86278,Summer Time,1
-737414,Ayye,1
+86278,Summer Time,0
+737414,Ayye,0
 535632,old rap,0
 261470,music,0
 384988,pregame ,0
@@ -375,7 +375,7 @@ pid,playlist_name,weight
 33295,June 2013,0
 829879,Good Jams,0
 536895,Music,0
-821479,Good Vibes,2
+821479,Good Vibes,0
 515450,good,0
 693722,Kanye,0
 948002,old,0
@@ -386,15 +386,15 @@ pid,playlist_name,weight
 101393,Hip Hop,0
 333308,Wedding songs,0
 984363,Road Music,0
-338469,2012,1
+338469,2012,0
 185400,Drake,0
 457142,Mine,0
 756068,#throwbacks,0
-655810,Bruno Mars,15
+655810,Bruno Mars,0
 766774,80's,0
 162061,90s,0
 588116,Run,0
-547933,Let's get weird,0
+547933,Let's get weird,1
 832318,a little of everything,0
 666220,HipHop,0
 407353,Sleep,0
@@ -402,7 +402,7 @@ pid,playlist_name,weight
 767833,80's,0
 482272,Go for it!,0
 747491,Oldies,0
-168717,Summer 2013,2
+168717,Summer 2013,0
 776093,90s,0
 168909,Drive,0
 229150,Wedding DANCE Music,0
@@ -412,13 +412,13 @@ pid,playlist_name,weight
 85310,Life is good...,0
 239602,relaxing.,0
 202651,Turnt Up,0
-162764,cool,1
-482484,Workout!,1
+162764,cool,0
+482484,Workout!,0
 994946,Oldies,0
-436563,i love it,1
-160411,party playlist,1
+436563,i love it,0
+160411,party playlist,0
 546644,Throwback,0
-606262,Reception,1
+606262,Reception,0
 119366,RAP,0
 271501,Party,0
 12182,2012,0
@@ -426,10 +426,10 @@ pid,playlist_name,weight
 801898,<3,0
 535725,Party,0
 371820,Dance Party,0
-605781,Dirty Thirty,3
+605781,Dirty Thirty,0
 963787,Feeling Good,0
 20945,Rock,0
-138998,Set,2
+138998,Set,0
 681371,70's & 80's,0
 788335,Get psyched mix,0
 574084,My Songs,0
@@ -437,27 +437,27 @@ pid,playlist_name,weight
 607962,Run,0
 909576,Running,0
 173028,English,0
-303199,Amazing songs! ,2
-232016,Random.,2
+303199,Amazing songs! ,0
+232016,Random.,1
 554794,Eminem,0
 581019,shower,0
 153165,Party,0
-404983,90's-00's,0
-61180,Love Songs,2
+404983,90's-00's,1
+61180,Love Songs,0
 823531,Bella (:,0
-414856,Car,3
+414856,Car,0
 506347,spring,0
 132630,Meow,0
 158340,Rap,0
-384002,My music ,3
-963685,Tuneage,1
+384002,My music ,0
+963685,Tuneage,0
 900405,Party,0
 879545,Workout,0
 435846,Travel playlist,1
 783880,classic,0
 909182,Alternative,0
-95469,Graduation Party,2
-894239,Happy Songs,3
+95469,Graduation Party,0
+894239,Happy Songs,0
 949620,Work,0
 754832,dancing,0
 716902,Bromance,0
@@ -467,37 +467,37 @@ pid,playlist_name,weight
 456039,Brock,0
 963975,mIdDlE sChOoL dAnCe,0
 168298,90's Mix,0
-776758,mad men,1
+776758,mad men,0
 554427,Amazing:),0
-705000,Great music,1
+705000,Great music,0
 301847,hip hop,0
 869262,My Summer Twist Playlist,0
 219936,Hip Hop,0
 995791,Adam,0
-765308,2013,2
+765308,2013,0
 29656,<3,0
 100192,Mellow Music,0
-219912,Dance Mix,0
+219912,Dance Mix,1
 557648,2000s,0
-667448,Run Run Run,1
+667448,Run Run Run,0
 211587,party,0
 163448,Party Mix,0
 49823,80s Hits,0
 754420,90's,0
-564749,All,1
+564749,All,0
 675701,Summer,0
 480855,Home,0
 860675,Alternative Rock,0
 823327,PARTAYYY,0
 228077,Jams,0
-581790,alyssa,5
+581790,alyssa,0
 138605,Summer,0
 151132,RUNRUNRUN,0
 71213,summer '13,0
 483196,Old School,0
-911419,Random good songs,2
+911419,Random good songs,0
 582014,90s Party,0
-330139,New Workout,2
+330139,New Workout,0
 103490,Random,0
 839464,rap,0
 371168,90s Playlist,0
@@ -506,14 +506,14 @@ pid,playlist_name,weight
 363950,90's-00's,0
 228540,80's Hits,0
 270482,Pumped Up Kicks,0
-371775,R.I.P.,1
+371775,R.I.P.,0
 262174,Play,0
 330110,playlist,0
 680513,all,0
 269563,America,0
 505785,Country/Folk,0
 567977,red,0
-302776,Jams,2
+302776,Jams,0
 339741,90's,0
 505634,Drugs ,0
 122671,College,0
@@ -525,9 +525,9 @@ pid,playlist_name,weight
 39362,club bangers,0
 414157,Workout1,0
 860128,Classic Rock,0
-184303,Mom,1
+184303,Mom,0
 455480,New summer ,0
-284436,Gym,1
+284436,Gym,0
 589535,Jana,0
 922667,80s,0
 395611,ratchet,0
@@ -538,16 +538,16 @@ pid,playlist_name,weight
 664957,Old Rap,0
 385573,80's mix,0
 303825,new,0
-555997,Memories,1
-36921,Me like,7
+555997,Memories,0
+36921,Me like,0
 353953,upbeat ,0
-68677,Freshman,1
+68677,Freshman,0
 465238,Party,0
 682021,America,0
 187952,Insanity,0
 581041,Country Favorites,0
-454539,POP,3
-153722,! New FAVS,1
+454539,POP,0
+153722,! New FAVS,0
 111337,90's,0
 415972,best,0
 995488,Dance music ,0
@@ -563,11 +563,11 @@ pid,playlist_name,weight
 682149,Country,0
 680843,gold,0
 886220,Sunday funday,0
-871436,2000s,1
+871436,2000s,0
 536849,ROCK,0
-820693,Bruno Mars,7
-33471,Top 100,1
-23614,Reception,1
+820693,Bruno Mars,0
+33471,Top 100,0
+23614,Reception,0
 202017,4th of July,0
 130579,CAKE,0
 158574,Classic Hits,0
@@ -578,13 +578,13 @@ pid,playlist_name,weight
 372801,Work,0
 284112,jams,0
 930431,fall 2012,0
-169713,MixTape,2
+169713,MixTape,0
 995359,Gym,0
 284548,spring has sprung,0
 118846,good stuff.,0
 427241,Drake,0
 201040,Drizzy,0
-474036,Requests,1
+474036,Requests,0
 580947,90s,0
 574890,Summer,0
 949342,80's,0
@@ -593,19 +593,19 @@ pid,playlist_name,weight
 131059,Summer,0
 476555,uh,0
 405125,new new new,0
-920717,music,2
-11771,tops,1
+920717,music,0
+11771,tops,0
 583440,Classics,0
 850709,Dance Party,0
 480583,Pop,0
 370360,Workout 2,0
 342967,<3,0
-149930,Party,1
-482579,stuff,1
+149930,Party,0
+482579,stuff,0
 681792,Jams,0
-606168,2013,10
+606168,2013,0
 101679,happy chill,0
-170755,Top,2
+170755,Top,0
 783441,2013,0
 952314,twerkout,0
 952442,Alternative,0
@@ -616,9 +616,9 @@ pid,playlist_name,weight
 85942,Rock,0
 29577,First,0
 169696,Study,0
-860784,Workout Music,1
-61390,Run,0
-56169,Freaks,1
+860784,Workout Music,0
+61390,Run,1
+56169,Freaks,0
 426444,June 2013,0
 902149,Electric Feel,0
 706214,Eminem,0
@@ -629,17 +629,17 @@ pid,playlist_name,weight
 258919,springbreak,0
 821696,rap,0
 995213,SUMMERTIME,0
-666372,Dancing,1
+666372,Dancing,0
 122538,WO,0
-271452,work out,1
+271452,work out,0
 735011,chill,0
 567575,Summa,0
 131472,rap,0
-808997,Just RUN!,2
+808997,Just RUN!,0
 637293,cheer,0
 580510,Jamz,0
 436879,Road Trip Playlist,0
-689637,Workout,1
+689637,Workout,0
 173152,Party mix,0
 859079,Chill Songs,0
 201274,Summer 2013,0
@@ -656,10 +656,10 @@ pid,playlist_name,weight
 657760,baseball,0
 268255,Road Trip Playlist,0
 56942,VEGAS,0
-213134,Good Mood,2
-296719,Happy Songs ,1
+213134,Good Mood,0
+296719,Happy Songs ,0
 23044,sleepy,0
-162093,i work out. ,1
+162093,i work out. ,0
 707420,90s jamz,0
 208065,OLDIES,0
 978168,Party,0
@@ -677,7 +677,7 @@ pid,playlist_name,weight
 909475,Christmas Party,0
 939077,Old School,0
 810607,2002,0
-861764,work out,1
+861764,work out,0
 853702,<3;,0
 333742,Summer 2013,0
 302156,For Nicole,0
@@ -688,19 +688,19 @@ pid,playlist_name,weight
 23408,Summer '13,0
 352365,** HIP HOP & RAP,0
 681076,Back to school :),0
-20303,Pop,2
-68448,david,1
+20303,Pop,0
+68448,david,0
 637414,90s Playlist,0
 498862,Bass,0
-656975,Nostalgic,1
+656975,Nostalgic,0
 505111,Road Trip Playlist,0
-829616,Dance,0
+829616,Dance,1
 384093,Party,0
 25122,bb,0
-333208,top 100,1
+333208,top 100,0
 959574,Playlist,0
-851293,PRE WEDDING,2
-978131,Playlist,8
+851293,PRE WEDDING,1
+978131,Playlist,0
 566252,TWERK,0
 263713,party,0
 263448,Nick,0
@@ -708,19 +708,19 @@ pid,playlist_name,weight
 348307,PreGame,0
 606962,REAL RAP,0
 665719,old school.,0
-303067,Wedding,2
+303067,Wedding,0
 197957,cool music,0
-690883,Fun Fun Fun,1
+690883,Fun Fun Fun,0
 141346,randoms,0
 505797,60's,0
-87299,Padre,1
-319860,up,1
+87299,Padre,0
+319860,up,0
 789651,random,0
 851853,AMERICA,0
 656573,country,0
-588717,west coast,1
+588717,west coast,0
 109799,2012,0
-994664,Seattle,2
+994664,Seattle,1
 350278,Wedding Music,0
 909169,places,0
 95116,Guilty Pleasures,0
@@ -754,7 +754,7 @@ pid,playlist_name,weight
 506825,Riding Music,0
 801150,Homework,0
 952959,90s,0
-169228,The Heat,1
+169228,The Heat,0
 252601,90210,0
 483963,Scott,0
 39957,middle school,0
@@ -764,18 +764,18 @@ pid,playlist_name,weight
 735815,Good Rap,0
 118752,Country,0
 208706,Summer Playlist,0
-272734,Club Music,3
+272734,Club Music,0
 100849,It's Time,0
-338814,My Music,2
+338814,My Music,0
 800948,ratchet ,0
 4692,Old Rap,0
-644851,Ian.,2
+644851,Ian.,0
 627761,80's mix,0
-302222,Sleepy Time,2
+302222,Sleepy Time,0
 930317,90s,0
-755521,My Mix,3
+755521,My Mix,0
 269177,Balance,0
-714008,Awesomeness ,2
+714008,Awesomeness ,0
 465327,classic rock,0
 698672,90's,0
 187136,country,0
@@ -784,24 +784,24 @@ pid,playlist_name,weight
 755556,Jammin,0
 285211,Pool Party,0
 913592,minecraft,0
-168564,Ours,2
-902111,Just for you,1
+168564,Ours,0
+902111,Just for you,0
 53414,Mix,0
 534602,Brunch,0
-574602,Us,1
+574602,Us,0
 102588,Road Trip Playlist,0
 852650,Rock,0
 656163,Retro,0
-85636,workout,1
+85636,workout,0
 581720,13,0
-387358,Valeria,0
+387358,Valeria,1
 29937,Leaving,0
 789237,80s,0
 232352,Marathon!,0
 260800,Summer 2013,0
-100883,Call Me Maybe,0
+100883,Call Me Maybe,1
 118804,Running,0
-447769,808 ,0
+447769,808 ,1
 688840,Summer tunes,0
 405952,Rap,0
 912284,Borderlands,0
@@ -813,9 +813,9 @@ pid,playlist_name,weight
 504419,Wednesday,0
 567228,partay,0
 776378,Old School,0
-546344,Drive,1
-457522,{SWEET 16},1
-716612,LALALA,1
+546344,Drive,0
+457522,{SWEET 16},2
+716612,LALALA,0
 108514,Memorial Day,0
 604000,pop,0
 606096,Drake,0
@@ -823,50 +823,50 @@ pid,playlist_name,weight
 565511,Happy ,0
 40309,love songs,0
 304344,workout,0
-211534,steven,3
+211534,steven,0
 195919,Urban,0
 405164,Gym ,0
-426203,party,1
+426203,party,0
 203577,Lake,0
 407880,rap,0
-655448,SUMMER,2
+655448,SUMMER,0
 86307,Run,0
 591465,Spring 2013,0
-798236,KESHA,1
+798236,KESHA,0
 734785,funk,0
-221316,Playlist,1
+221316,Playlist,0
 168087,Party,0
 838135,80's and 90's,0
 480744,lets get weird,0
 997377,Dance music,0
-791422,Wedding Playlist,1
+791422,Wedding Playlist,0
 359918,'Merica,0
 108239,Chill AF,0
 688631,indie.,0
 634027,Beyoncé ,0
-995316,Music,1
+995316,Music,0
 159886,David ,0
 680243,Summer 2013,0
-444318,New Music,1
+444318,New Music,0
 385254,420,0
 218080,top songs ,0
 171812,lunch,0
 152017,Soon,0
 455533,12345,0
-465698,<3,1
+465698,<3,0
 445127,sprang,0
-296490,Birthday!,1
+296490,Birthday!,0
 754456,After Party,0
 130004,Ball ,0
 358487,Yup,0
-363822,Music,3
-547275,Beach Mix,1
-350356,good songs,0
+363822,Music,0
+547275,Beach Mix,0
+350356,good songs,1
 580541,Blurred Lines,0
 297422,sleeping music ,0
 822420,epic,0
 894713,lol,0
-598704,Started From the Bottom,2
+598704,Started From the Bottom,0
 133333,beets,0
 605224,Mix,0
 360254,Stuff,0
@@ -883,11 +883,11 @@ pid,playlist_name,weight
 286704,Party Mix,0
 352702,Throw Backs,0
 843626,prom,0
-829911,Chillin,1
-258717,english,2
-77142,Fun,1
+829911,Chillin,0
+258717,english,0
+77142,Fun,0
 143288,Best of Coldplay,0
-406373,new favs,2
+406373,new favs,0
 434668,Dec,0
 767782,Wedding Dance,0
 163885,GHETTO. ,0
@@ -904,23 +904,23 @@ pid,playlist_name,weight
 40744,Love Songs,0
 681015,The Feel-Good Flavors Playlist,0
 338183,Boston,0
-961772,jammin',1
+961772,jammin',0
 25678,Party Playlist,0
 221062,Classic rock,0
 162704,don't judge me.,0
 220354,end of the world,0
-387268,May,1
+387268,May,0
 223644,SASSY,0
 102628,Playlist,0
 55194,JOSH,0
-896621,Wedding Jams,0
-886209,Slow Songs,2
+896621,Wedding Jams,1
+886209,Slow Songs,0
 379565,Fiesta,0
 995619,WEdding party!!,0
 869269,tech n9ne,0
 782323,Rap,0
 583209,Private,0
-17896,kathy,2
+17896,kathy,0
 45105,BOOTCAMP,0
 210356,Old School,0
 187842,Raw,0
@@ -929,21 +929,21 @@ pid,playlist_name,weight
 822573,West Coast Swing,0
 168204,Road Trip Playlist,0
 950003,HEART,0
-839720,2012,4
-358288,Summer 2013,1
+839720,2012,0
+358288,Summer 2013,0
 860021,Hip Hop,0
 446990,susan,0
-17126,All day ,1
-287244,Bruno,22
+17126,All day ,0
+287244,Bruno,0
 168319,summer 2013,0
 966801,rhcp,0
 555857,School Dance,0
 102609,Random playlist,0
 404908,Wiz Khalifa,0
-582137,relaxing,1
+582137,relaxing,0
 339453,AWESOME,0
-918922,Newish,1
-606164,Working out,0
+918922,Newish,0
+606164,Working out,1
 862660,Fun Stuff,0
 33619,Workout,0
 754402,'Merica,0
@@ -957,13 +957,13 @@ pid,playlist_name,weight
 71888,EDM Favorites,0
 386703,Workout,0
 100283,now,0
-843412,pregame,1
+843412,pregame,0
 607351,Muzik,0
-698881,Sad songs,1
-897957,art,3
+698881,Sad songs,0
+897957,art,0
 95089,Random Stuff,0
 506652,Summer Festival Playlist,0
-765242,Buzzin,0
+765242,Buzzin,1
 12058,Wrkout,0
 294618,throwback,0
 111635,sing a long,0
@@ -979,23 +979,23 @@ pid,playlist_name,weight
 24484,Run,0
 923817,Old Rock,0
 168308,Country,0
-707549,pop songs ,2
+707549,pop songs ,0
 949057,90s,0
 537251,R & B,0
-415224,Carson,1
-131806,Wedding,3
+415224,Carson,0
+131806,Wedding,0
 172506,classics,0
 950791,Summerrrr,0
 783657,New New,0
 77174,80s,0
 35970,Classic Rock,0
 50997,party time,0
-481191,sc,2
+481191,sc,0
 102792,alt nation.,0
-625089,Fourth of July,1
+625089,Fourth of July,0
 593324,American Rock,0
 273822,Nelly,0
 476278,Lake house,0
 499985,or,0
 339588,Springtime,0
-913194,New ,4
+913194,New ,0

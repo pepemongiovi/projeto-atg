@@ -10,34 +10,52 @@ with open('../spotifyDB.json') as f:
 charset='utf-8'
 nodes = []
 edges = []
-i = 1
 
-for p1 in data["playlists"]:
-	node = [p1["pid"], p1["name"].encode(charset)]
-	j = 1
-	for p2 in data["playlists"]:
-		if(j>i):
-			edge = [p1["pid"], p2["pid"]]
+def getSelectedPlaylist(pid):
+	for p in data["playlists"]:
+		if(p["pid"]==pid):
+			return p
+	return None
+
+def setNodes():
+	global nodes
+	for p in data["playlists"]:
+		nodes.append(p)
+
+def setEdges(selectedPlaylist):
+	global edges
+	for n in nodes:
+		if(n["pid"]!=selectedPlaylist["pid"]):
 			counter = 0
-			for m1 in p1["tracks"]:
-				for m2 in p2["tracks"]:
+			for m1 in n["tracks"]:
+				for m2 in selectedPlaylist["tracks"]:
 					if(m1["track_uri"]==m2["track_uri"]):
-						counter += 1
-			if(counter > 0):
-				edge.append(counter)
-				edges.append(edge)
-		j+=1
-	nodes.append(node)
-	i+=1
+						counter+=1
+			edge = [selectedPlaylist["pid"], n["pid"], counter]
+			edges.append(edge)
+	
 
-with open('nodes.csv', mode='w') as nodes_file:
-	nodes_writer = csv.writer(nodes_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-	nodes_writer.writerow(['pid', 'playlist_name'])
-	for node in nodes:
-		nodes_writer.writerow(node)
+def generateCSV():
+	with open('nodes.csv', mode='w') as nodes_file:
+		nodes_writer = csv.writer(nodes_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+		nodes_writer.writerow(['Id', 'Label'])
+		for node in nodes:
+			nodes_writer.writerow([node["pid"], node["name"].encode(charset)])
 
-with open('edges.csv', mode='w') as edges_file:
-	edges_writer = csv.writer(edges_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-	edges_writer.writerow(['source', 'target', 'weight'])
-	for edge in edges:
-		edges_writer.writerow(edge)
+	with open('edges.csv', mode='w') as edges_file:
+		edges_writer = csv.writer(edges_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+		edges_writer.writerow(['Source', 'Target', 'Weight'])
+		for edge in edges:
+			edges_writer.writerow(edge)
+
+def run():
+	selectedPlaylistPID = int(raw_input("Insira o pid da playlist: "))
+	selectedPlaylist = getSelectedPlaylist(selectedPlaylistPID)
+	if(selectedPlaylist==None):
+		print "Playlist não encontrada!"
+	else:
+		setNodes()
+		setEdges(selectedPlaylist)
+		generateCSV()
+
+run()
