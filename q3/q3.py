@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+# Pergunta: Dado uma playlist, qual seria uma playlist recomendada levando em consideração as músicas presentes?
+
 import json
 import csv
 

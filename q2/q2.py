@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+# Pergunta: Considerando um conjunto de dados, qual artista possui mais músicas distintas? 
+
 import json
 import csv
 
@@ -10,58 +12,41 @@ with open('../spotifyDB.json') as f:
 charset='utf-8'
 nodes = []
 edges = []
-selectedSongArtist = None
-
-def setSelectedSongArtist(selectedSongUri):
-	global selectedSongArtist
-	for p in data["playlists"]:
-		for m in p["tracks"]:
-			if(m["track_uri"]==selectedSongUri):
-				selectedSongArtist = m["artist_name"]
-
-# def setEdges():
-# 	global edges
-# 	for i in range (len(nodes)):
-# 		for j in range (i+1,len(nodes)):
-# 			edge = [nodes[i][0], nodes[j][0]]
-# 			edges.append(edge)
 
 def setNodes():
 	global nodes
-	
 	for p in data["playlists"]:
-		counter = 0
-		for m in p["tracks"]:
-			if(m["artist_name"]==selectedSongArtist):
-				counter+=1
+		for t in p["tracks"]:
+			if(t not in nodes):
+				nodes.append(t)
 
-		node = [p["pid"], p["name"].encode(charset), counter]
-		nodes.append(node)
+def setEdges():
+	global edges
+	for i in range(len(nodes)):
+		track1 = nodes[i]
+		for j in range(i+1, len(nodes)):
+			track2 = nodes[j]
+			if(track1["artist_uri"] == track2["artist_uri"]):
+				edge = [track1["track_uri"], track2["track_uri"]]
+				edges.append(edge)
 
 def generateCSV():
 	with open('nodes.csv', mode='w') as nodes_file:
 		nodes_writer = csv.writer(nodes_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-		nodes_writer.writerow(['Id', 'Label', 'Weight'])
+		nodes_writer.writerow(['Id', 'Label','Artist'])
 		for node in nodes:
-			nodes_writer.writerow(node)
+			row = [ node["track_uri"], node["track_name"].encode(charset), node["artist_name"].encode(charset) ]
+			nodes_writer.writerow(row)
 
-	# with open('edge.csv', mode='w') as edges_file:
-	# 	edges_writer = csv.writer(edges_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-	# 	edges_writer.writerow(['Source', 'Target'])
-	# 	for edge in edges:
-	# 		edges_writer.writerow(edge)
+	with open('edges.csv', mode='w') as edges_file:
+		edges_writer = csv.writer(edges_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+		edges_writer.writerow(['Source', 'Target'])
+		for edge in edges:
+			edges_writer.writerow(edge)
 
 def run():
-	selectedSongUri = raw_input("Insira o uri da música: ")
-	setSelectedSongArtist(selectedSongUri)
-
-	if(selectedSongArtist==None):
-		print "Música não encontrada!"
-	else:
-		setNodes()
-		# setEdges()
-		generateCSV()
+	setNodes()
+	setEdges()
+	generateCSV()
 
 run()
-
-	
