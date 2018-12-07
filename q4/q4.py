@@ -39,7 +39,7 @@ def getNumberOfDiffArtistsInPlaylist(playlist):
 def generateCSV():
 	with open('nodes.csv', mode='w') as nodes_file:
 		nodes_writer = csv.writer(nodes_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-		nodes_writer.writerow(['Id', 'Collaborative','Distinct Artists'])
+		nodes_writer.writerow(['Id', 'Collaborative','DistinctArtists'])
 		for node in nodes:
 			distinctArtists = getNumberOfDiffArtistsInPlaylist(node)
 			row = [ node["pid"], node["collaborative"], distinctArtists ]
